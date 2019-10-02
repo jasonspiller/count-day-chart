@@ -39,3 +39,11 @@ img, video { max-width: 100%; height: auto; }
 
 /* Remove the border on images inside links in IE 10 and earlier. */
 img { border-style: none; }
+
+
+.attendingContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 0;
+}
