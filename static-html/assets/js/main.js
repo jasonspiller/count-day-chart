@@ -11,8 +11,8 @@ function drawCharts() {
   // bar chart
   var fullTime = google.visualization.arrayToDataTable([
     ['Students', '2018-2019', '2019-2020'],
-    ['Total Students', 1948, 1470],
-    ['Total Attending', 1720, 1330]
+    ['Total Students', 1966, 1523],
+    ['Total Attending', 1801, 1405]
   ]);
 
   var options = {
@@ -31,12 +31,12 @@ function drawCharts() {
   // 2018-2019 Attending
   var fullTimeAttending20182019 = google.visualization.arrayToDataTable([
     ['Students Attending', 'Number of Students'],
-    ['Attended', 1754],
-    ['Not Attended', 194]
+    ['Attended', 1801],
+    ['Not Attended', 165]
   ]);
 
   var options = {
-    title: '2018-2019 Not Attended',
+    title: '2018-2019 Attended',
     chartArea: {width: '100%'},
     colors: ['#00AFD7', '#7fd2e6'],
     pieHole: 0.2
@@ -49,12 +49,12 @@ function drawCharts() {
   // 2019-2020 Attending
   var fullTimeAttending = google.visualization.arrayToDataTable([
     ['Students Attending', 'Number of Students'],
-    ['Attended', 1330],
-    ['Not Attended', 140]
+    ['Attended', 1405],
+    ['Not Attended', 118]
   ]);
 
   var options = {
-    title: '2019-2020 Not Attended',
+    title: '2019-2020 Attended',
     chartArea: {width: '100%'},
     colors: ['#005EB8', '#7fa9d5'],
     pieHole: 0.2
@@ -71,8 +71,8 @@ function drawCharts() {
   // freedom students
   var freedom = google.visualization.arrayToDataTable([
     ['Students', '2018-2019', '2019-2020'],
-    ['Total Students', 84, 232],
-    ['Total Attending', 30, 182]
+    ['Total Students', 111, 244],
+    ['Total Attending', 39, 207]
   ]);
 
   var options = {
@@ -92,12 +92,12 @@ function drawCharts() {
   // 2018-2019 Attending
   var freedomAttending20182019 = google.visualization.arrayToDataTable([
     ['Students Attending', 'Number of Students'],
-    ['Attended', 30],
-    ['Not Attended', 54]
+    ['Attended', 39],
+    ['Not Attended', 72]
   ]);
 
   var options = {
-    title: '2018-2019 Not Attended',
+    title: '2018-2019 Attended',
     chartArea: {width: '100%'},
     colors: ['#2E979C', '#81c5c7'],
     pieHole: 0.2
@@ -110,12 +110,12 @@ function drawCharts() {
   // 2019-2020 Attending
   var freedomAttending = google.visualization.arrayToDataTable([
     ['Students Attending', 'Number of Students'],
-    ['Attended', 182],
-    ['Not Attended', 50]
+    ['Attended', 207],
+    ['Not Attended', 32]
   ]);
 
   var options = {
-    title: '2019-2020 Not Attended',
+    title: '2019-2020 Attended',
     chartArea: {width: '100%'},
     colors: ['#f7941e', '#fec497'],
     pieHole: 0.2
