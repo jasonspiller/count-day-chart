@@ -40,6 +40,10 @@ img, video { max-width: 100%; height: auto; }
 /* Remove the border on images inside links in IE 10 and earlier. */
 img { border-style: none; }
 
+h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+  text-align: center;
+}
 
 .chart-container {
   display: flex;
